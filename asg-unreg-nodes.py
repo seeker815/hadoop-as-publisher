@@ -7,10 +7,10 @@ Sample config
 {
     "access_key": "key",
     "secret_key": "secret",
-    "group_name": "datapipeline-in-stag-spot-asg"
+    "group_name": "asg-group-name"
 
     # optional: depending on running on the master/any node
-    "HOSTNAME": "datapipeline-in-master.stag.indix.tv"
+    "HOSTNAME": "YARN master fqdn"
 }
 """
 import boto
